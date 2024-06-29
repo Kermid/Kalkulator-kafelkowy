@@ -17,7 +17,7 @@ let AC = document.getElementById("reset")
 let divide = document.getElementById("/")
 let per = document.getElementById(".")
 let compute = document.getElementById("=")
-
+let clear = document.getElementById("AC")
 
 let outcome = Number(0);
 let i = 0;
@@ -228,4 +228,10 @@ compute.onclick = function()
 {
 eval(outcome)
 wynik.textContent = eval(outcome)
+}
+clear.onclick = function()
+{
+    outcome = ""
+    wynik.textContent = outcome
+    i = 0
 }
