@@ -12,7 +12,7 @@ let a0 = document.getElementById("zero")
 
 let add = document.getElementById("+")
 let subtract = document.getElementById("-")
-let multiple = document.getElementById("x")
+let multiple = document.getElementById("*")
 let AC = document.getElementById("reset")
 let divide = document.getElementById("/")
 let per = document.getElementById(".")
@@ -228,6 +228,7 @@ compute.onclick = function()
 {
 eval(outcome)
 wynik.textContent = eval(outcome)
+outcome = ""
 }
 clear.onclick = function()
 {
