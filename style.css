@@ -42,10 +42,11 @@ html{
     cursor: pointer;
     border-style: none;
     
+    
 }
-.buttons:hover, .equalButton:hover
+.buttons:hover
 {
-    background-color: #1f4c77;
+    background-color: #2e6fac;
     transition: 0.2s;
 }
 
